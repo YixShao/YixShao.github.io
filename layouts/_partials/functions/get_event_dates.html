@@ -1,0 +1,21 @@
+{{- /*
+  Local override for get_event_dates to be defensive against missing/typed fields.
+  Shows a simple date or date range. This shadows the module partial so we can
+  continue local development without failing when the upstream partial expects
+  a different value type.
+*/ -}}
+{{- $start := .Params.date | default .Date -}}
+{{- if $start -}}
+  {{- $s := time $start -}}
+  {{- $fmt := "Jan 2, 2006" -}}
+  {{- $out := $s.Format $fmt -}}
+  {{- with .Params.date_end -}}
+    {{- $e := time . -}}
+    {{- if ne ($e.Unix) ($s.Unix) -}}
+      {{- $out = printf "%s — %s" $out ($e.Format $fmt) -}}
+    {{- end -}}
+  {{- end -}}
+  <span class="event-dates">{{ $out }}</span>
+{{- else -}}
+  {{- /* No dates available; render nothing to avoid template errors. */ -}}
+{{- end -}}

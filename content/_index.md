@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/CV_Shaoyixuan.pdf
       headings:
         about: ''
         education: ''
@@ -41,11 +41,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        I am interested in some of the most fascinating high-energy phenomena in the Universe, such as fast radio bursts and energetic outbursts from neutron stars, as well as the birth and long-term evolution of neutron stars. In particular, I focus on how their surrounding environments and internal physics shape the observed emission. I believe that multi-wavelength observations provide a uniquely comprehensive view of these extreme systems, allowing us to connect physical processes across different energy bands.
     design:
       columns: '1'
   - block: collection
@@ -69,44 +65,55 @@ sections:
         exclude_featured: false
     design:
       view: citation
+
   - block: collection
-    id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: 'Gallery'
       filters:
         folders:
-          - events
+          - gallery
+        featured_only: false
     design:
-      view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
+      view: article-grid   # 或你自定义的 view 名称，比如 image-grid（见下）
+      columns: 2
+  #- block: collection
+  #  id: talks
+  #  content:
+  #    title: Recent & Upcoming Talks
+  #    filters:
+  #      folders:
+  #        - events
+  #  design:
+  #    view: card
+  #- block: collection
+  #  id: news
+  #  content:
+  #    title: Recent News
+  #    subtitle: ''
+  #    text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: blog
+  #    page_type: blog
       # Choose how many pages you would like to display (0 = all pages)
-      count: 10
+  #    count: 10
       # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
+  #    filters:
+  #      author: ''
+  #      category: ''
+  #      tag: ''
+  #      exclude_featured: false
+  #      exclude_future: false
+  #      exclude_past: false
+  #      publication_type: ''
       # Choose how many pages you would like to offset by
-      offset: 0
+  #    offset: 0
       # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
+  #    order: desc
+  #  design:
       # Choose a layout view
-      view: card
+  #    view: card
       # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+  #    spacing:
+  #      padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

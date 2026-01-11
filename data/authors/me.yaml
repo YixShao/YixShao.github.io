@@ -1,116 +1,70 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: "Yixuan Shao (邵一轩)"
+  given: "Yi-Xuan"
+  family: "Shao"
+  alternate: "邵一轩"
+  pronunciation: ""
+  pronouns: "he/him"
 postnominals:
-  - PhD
-  - MIEEE
+  - "PhD_student"
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
-bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
-
+  icon: "📡"
+role: "Pulsar astronomy student"
+bio: "Yixuan Shao is a PhD student in astronomy at Nanjing University, working under the supervision of Dr. Ping Zhou since 2023. He received his BSc in Astronomy from Nanjing University in 2023. His research focuses on isolated neutron stars, including magnetars, central compact objects (CCOs), and high-magnetic-field pulsars, as well as their connection to fast radio bursts (FRBs) and supernova remnants (SNRs). He conducts multi-wavelength observations—spanning radio, optical, infrared, and X-ray bands—to investigate emission mechanisms and physical processes in extreme astrophysical environments."
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  - name: "School of Astronomy and Space Science"
+    url: "https://astronomy.nju.edu.cn/"
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+  - icon: "at-symbol"
+    url: "yixuan@smail.nju.edu.cn"
+    label: "Email"
+  - icon: "brands/github"
+    url: "https://github.com/YixShao"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0001-5684-0103"
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
+  - "Pulsars"
+  - "Fast radio bursts"
+  - "Supernova remnants"
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-
-experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+  - degree: "BS in Astronomy"
+    institution: "Nanjing University"
+    start: "2019-09-01"
+    end: "2023-06-30"
+    summary: ""
+  - degree: "PhD in Astronomy"
+    institution: "Nanjing University"
+    start: "2023-09-01"
+    end: ""
+    summary: ""
+experience: []
 skills:
-  - name: Technical Skills
+  - name: "Technical Skills"
     items:
-      - label: Pytho
+      - label: "Python, Bash"
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: "C, C++"
         level: 4
-  - name: Research & Communication
+      - label: "Fortran"
+        level: 3
+  - name: "Research & Communication"
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
+      - label: "Conference Presentations"
+        level: 3.5
+      - label: "Academic Writing"
+        level: 3.5
 languages:
-  - name: English
+  - name: "Mandarin"
     level: 5
-    label: Native
-  - name: Spanish
+    label: "Native"
+  - name: "English"
     level: 4
-    label: Fluent
+    label: "Advanced"
+awards: []
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+weight: null
+ids:
+  orcid: "0000-0001-5684-0103"
