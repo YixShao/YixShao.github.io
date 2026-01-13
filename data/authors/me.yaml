@@ -13,7 +13,7 @@ postnominals:
 status:
   icon: "📡"
 role: "Pulsar astronomy student"
-bio: "Yixuan Shao is a PhD student in astronomy at Nanjing University, working under the supervision of Dr. Ping Zhou since 2023. He received his BSc in Astronomy from Nanjing University in 2023. His research focuses on isolated neutron stars, including magnetars, central compact objects (CCOs), and high-magnetic-field pulsars, as well as their connection to fast radio bursts (FRBs) and supernova remnants (SNRs). He conducts multi-wavelength observations—spanning radio, optical, infrared, and X-ray bands—to investigate emission mechanisms and physical processes in extreme astrophysical environments."
+bio: "Yixuan Shao is a PhD student in astronomy at Nanjing University, working under the supervision of Prof. Ping Zhou since 2023. He received his BSc in Astronomy from Nanjing University in 2023. His research focuses on isolated neutron stars, including magnetars, central compact objects (CCOs), and high-magnetic-field pulsars, as well as their connection to fast radio bursts (FRBs) and supernova remnants (SNRs). He conducts multi-wavelength observations—spanning radio, optical, infrared, and X-ray bands—to investigate emission mechanisms and physical processes in extreme astrophysical environments."
 affiliations:
   - name: "School of Astronomy and Space Science"
     url: "https://astronomy.nju.edu.cn/"
