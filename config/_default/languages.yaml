@@ -22,7 +22,7 @@ zh:
         description: 南京大学天文学博士研究生邵一轩的个人学术主页
   menu:
     main:
-      - name: 简介
+      - name: 个人简介
         url: /zh/
         weight: 10
       - name: 动态
@@ -31,6 +31,9 @@ zh:
       - name: 论文
         url: /zh/#papers
         weight: 30
+      - name: 经历与技能
+        url: /zh/experience/
+        weight: 40
       - name: 相册
         url: /zh/#gallery
-        weight: 40
+        weight: 50

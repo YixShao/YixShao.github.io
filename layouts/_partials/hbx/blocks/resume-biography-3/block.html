@@ -5,7 +5,9 @@
 
 {{ $author := $block.content.username | default "me" }}
 {{ $profile := partial "functions/get_author_profile" $author }}
-{{ $avatar := $profile.avatar }}
+{{ $avatar_author := $block.content.avatar_username | default $author }}
+{{ $avatar_profile := partial "functions/get_author_profile" $avatar_author }}
+{{ $avatar := $avatar_profile.avatar }}
 
 {{ $avatar_size := $block.design.avatar.size | default "large" }}
 {{ $avatar_shape := $block.design.avatar.shape | default "circle" }}

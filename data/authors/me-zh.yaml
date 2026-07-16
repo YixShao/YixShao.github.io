@@ -1,0 +1,85 @@
+schema: "hugoblox/author/v1"
+slug: "me-zh"
+is_owner: false
+name:
+  display: "邵一轩"
+  given: "一轩"
+  family: "邵"
+  alternate: "Yixuan Shao"
+  pronouns: "他"
+status:
+  icon: "📡"
+role: "高能天体物理博士研究生"
+affiliations:
+  - name: "南京大学天文与空间科学学院"
+    url: "https://astronomy.nju.edu.cn/"
+links:
+  - icon: "at-symbol"
+    url: "mailto:yixuan@smail.nju.edu.cn"
+    label: "南京大学邮箱"
+  - icon: "at-symbol"
+    url: "mailto:shaoyixuan99@gmail.com"
+    label: "Gmail"
+  - icon: "brands/github"
+    url: "https://github.com/YixShao"
+    label: "GitHub"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0001-5684-0103"
+    label: "ORCID"
+ids:
+  orcid: "0000-0001-5684-0103"
+
+education:
+  - degree: "天文学学士"
+    institution: "南京大学"
+    start: "2019-09-01"
+    end: "2023-06-30"
+    year: "2019年9月－2023年6月"
+    summary: ""
+  - degree: "天文学博士研究生"
+    institution: "南京大学"
+    start: "2023-09-01"
+    end: ""
+    year: "2023年9月至今"
+    summary: ""
+
+experience: []
+
+skills:
+  - name: "技术技能"
+    items:
+      - label: "Python, Bash"
+        level: 5
+      - label: "C, C++"
+        level: 4
+      - label: "Fortran"
+        level: 3
+  - name: "科研与交流"
+    items:
+      - label: "会议报告"
+        level: 3.5
+      - label: "学术写作"
+        level: 3.5
+  - name: "体育与爱好"
+    items:
+      - label: "网球"
+        level: 3.5
+      - label: "羽毛球"
+        level: 3
+      - label: "健身"
+        level: 4
+      - label: "徒步"
+        level: 3.5
+      - label: "摄影"
+        level: 4
+
+languages:
+  - name: "中文"
+    level: 5
+    label: "母语"
+  - name: "英语"
+    level: 4
+    label: "熟练"
+
+interests: []
+awards: []

@@ -59,9 +59,9 @@ skills:
   - name: "Sports & Hobbies"
     items:
       - label: "Tennis"
-        level: 4
+        level: 3.5
       - label: "Badminton"
-        level: 3.75
+        level: 3
       - label: "Gym"
         level: 4
       - label: "Hiking"

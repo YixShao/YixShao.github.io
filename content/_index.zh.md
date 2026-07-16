@@ -9,7 +9,8 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      username: me
+      username: me-zh
+      avatar_username: me
       text: |-
         我是南京大学天文系的博士研究生，自2023年起在高能组周平博士指导下开展研究。在此之前我于2023年在南京大学获得天文学学士学位。我的研究主要聚焦于孤立中子星，包括磁陀星 (magnetar)、中心致密天体（Central Compact Objects）和高磁场脉冲星 (High-magnetic-field pulsar)，以及它们与快速射电暴（Fast Radio Bursts）和超新星遗迹（Supernova Remnants）之间的联系。我利用射电、光学、红外和X射线等多波段观测，研究极端天体物理环境中的辐射机制与物理过程。
       button:
@@ -29,13 +30,13 @@ sections:
           url: /zh/interests/supernova-remnants/
       research_skills:
         - title: X射线
-          url: /experience/#software-xray
+          url: /zh/experience/#software-xray
         - title: 射电 · 脉冲星数据
-          url: /experience/#software-pulsars-transients
+          url: /zh/experience/#software-pulsars-transients
         - title: 射电 · 干涉阵成像
-          url: /experience/#software-radio-interferometry
+          url: /zh/experience/#software-radio-interferometry
         - title: 光学 / 近红外
-          url: /experience/#software-optical-nir
+          url: /zh/experience/#software-optical-nir
     design:
       background:
         gradient_mesh:

@@ -24,7 +24,7 @@ hugoblox:
     style: navbar
     sticky: true
     align: center
-    search: true
+    search: false
     theme_toggle: true
     language_switcher: true
   footer:
@@ -40,4 +40,4 @@ hugoblox:
     reading_time:
       enable: true
   search:
-    enable: true
+    enable: false
