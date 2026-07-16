@@ -19,16 +19,16 @@ affiliations:
     url: "https://astronomy.nju.edu.cn/"
 links:
   - icon: "at-symbol"
-    url: "yixuan@smail.nju.edu.cn"
-    label: "Email"
+    url: "mailto:yixuan@smail.nju.edu.cn"
+    label: "NJU Email"
+  - icon: "at-symbol"
+    url: "mailto:shaoyixuan99@gmail.com"
+    label: "Gmail"
   - icon: "brands/github"
     url: "https://github.com/YixShao"
   - icon: "academicons/orcid"
     url: "https://orcid.org/0000-0001-5684-0103"
-interests:
-  - "Pulsars"
-  - "Fast radio bursts"
-  - "Supernova remnants"
+interests: []
 education:
   - degree: "BS in Astronomy"
     institution: "Nanjing University"
@@ -56,6 +56,18 @@ skills:
         level: 3.5
       - label: "Academic Writing"
         level: 3.5
+  - name: "Sports & Hobbies"
+    items:
+      - label: "Tennis"
+        level: 4
+      - label: "Badminton"
+        level: 3.75
+      - label: "Gym"
+        level: 4
+      - label: "Hiking"
+        level: 3.5
+      - label: "Photography"
+        level: 4
 languages:
   - name: "Mandarin"
     level: 5

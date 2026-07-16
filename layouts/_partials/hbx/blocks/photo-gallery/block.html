@@ -1,0 +1,74 @@
+{{/* Responsive photo gallery for all image resources in content/gallery bundles. */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $gallery_pages := where site.RegularPages "Section" "gallery" }}
+{{ with $block.content.category }}
+  {{ $gallery_pages = where $gallery_pages "Params.gallery_category" . }}
+{{ end }}
+
+<div class="mx-auto w-full max-w-7xl px-6 lg:px-8">
+  {{ with $block.content.title }}
+    <div class="mx-auto mb-12 max-w-2xl text-center">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">{{ . | emojify | $page.RenderString }}</h2>
+      {{ with $block.content.text }}
+        <div class="mt-4 text-base text-gray-600 dark:text-gray-300">{{ . | emojify | $page.RenderString }}</div>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  <div class="space-y-16">
+    {{ range sort $gallery_pages "Title" }}
+      {{ $category := . }}
+      {{ $images := slice }}
+      {{ range .Resources.ByType "image" }}
+        {{ if not (findRE "_hu_" .Name) }}
+          {{ $images = $images | append . }}
+        {{ end }}
+      {{ end }}
+      {{ if gt (len $images) 0 }}
+        {{ $column_class := "columns-1 gap-4 sm:columns-2 lg:columns-3" }}
+        {{ if eq (len $images) 1 }}
+          {{ $column_class = "columns-1 gap-4 max-w-4xl" }}
+        {{ else if eq (len $images) 2 }}
+          {{ $column_class = "columns-1 gap-4 sm:columns-2" }}
+        {{ end }}
+        <section{{ if not $block.content.category }} aria-labelledby="gallery-{{ .File.UniqueID }}"{{ end }}>
+          {{ if not $block.content.category }}
+          <div class="mx-auto mb-6 text-center">
+            <h3 id="gallery-{{ .File.UniqueID }}" class="text-2xl font-semibold text-gray-900 dark:text-white">
+              {{ if ne .RelPermalink $page.RelPermalink }}
+                <a href="{{ .RelPermalink }}" class="inline-flex items-center gap-2 transition-colors hover:text-primary-600 dark:hover:text-primary-300">
+                  <span>{{ .Title }}</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+              {{ else }}
+                {{ .Title }}
+              {{ end }}
+            </h3>
+            {{ with .Params.summary }}
+              <p class="mx-auto mt-2 max-w-3xl text-gray-600 dark:text-gray-300">{{ . }}</p>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          <div class="{{ $column_class }}">
+            {{ range $index, $image := $images }}
+              {{ $preview := $image.Resize "1200x webp q85" }}
+              <a href="{{ $image.RelPermalink }}" target="_blank" rel="noopener" class="group mb-4 block break-inside-avoid overflow-hidden rounded-2xl bg-gray-100 shadow-sm ring-1 ring-black/5 transition hover:-translate-y-1 hover:shadow-xl dark:bg-gray-800 dark:ring-white/10">
+                <img
+                  src="{{ $preview.RelPermalink }}"
+                  width="{{ $preview.Width }}"
+                  height="{{ $preview.Height }}"
+                  loading="lazy"
+                  decoding="async"
+                  alt="{{ $category.Title }} photo {{ add $index 1 }}"
+                  class="h-auto w-full object-cover transition duration-500 group-hover:scale-[1.02]"
+                >
+              </a>
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

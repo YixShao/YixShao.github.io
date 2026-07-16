@@ -5,18 +5,32 @@
 # Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  languageName: English
+  weight: 1
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+# Chinese translation. Translated pages use the `.zh.md` filename suffix.
+zh:
+  languageCode: zh-Hans
+  languageName: 中文
+  title: 邵一轩的个人主页
+  weight: 2
+  params:
+    description: 南京大学天文学博士研究生邵一轩的个人学术主页
+    hugoblox:
+      identity:
+        tagline: 天文学｜博士研究生
+        description: 南京大学天文学博士研究生邵一轩的个人学术主页
+  menu:
+    main:
+      - name: 简介
+        url: /zh/
+        weight: 10
+      - name: 动态
+        url: /zh/#news
+        weight: 20
+      - name: 论文
+        url: /zh/#papers
+        weight: 30
+      - name: 相册
+        url: /zh/#gallery
+        weight: 40

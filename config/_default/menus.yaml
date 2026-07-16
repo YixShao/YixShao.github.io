@@ -8,18 +8,18 @@ main:
     identifier: 72SYXDXt
     url: /
     weight: 10
+  - name: News
+    identifier: dRmWHFZ9
+    url: /#news
+    weight: 20
   - name: Papers
     identifier: fZJ6_obN
     url: /#papers
-    weight: 25
+    weight: 30
   #- name: Talks
   #  identifier: 1uGs0AYb
   #  url: /#talks
   #  weight: 30
-  #- name: News
-  #  identifier: dRmWHFZ9
-  #  url: /#news
-  #  weight: 40
 #  - name: Projects
 #    identifier: AzWCX8wm
 #    url: projects/

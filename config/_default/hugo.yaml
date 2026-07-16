@@ -30,7 +30,17 @@ pagination:
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+ignoreFiles:
+  - ".ipynb_checkpoints$"
+  - "\\.Rmd$"
+  - "\\.Rmarkdown$"
+  - "_cache$"
+  # Keep the starter examples in the repository without building them.
+  - "/content/blog/"
+  - "/content/courses/"
+  - "/content/events/"
+  - "/content/projects/"
+  - "/content/publications_examples/"
 disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
