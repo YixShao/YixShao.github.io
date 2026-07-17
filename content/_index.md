@@ -181,4 +181,29 @@ sections:
         # Card background color (CSS class)
         css_class: 'bg-primary-300 dark:bg-primary-700'
         css_style: ''
+  - block: personal-contact
+    id: contact
+    content:
+      title: Contact
+      subtitle: If there is anything you would like to tell me, please leave a message below or email me directly.
+      email_title: Email me directly
+      email_text: You can reach me through either my university email or Gmail.
+      emails:
+        - label: NJU Email
+          address: yixuan@smail.nju.edu.cn
+          icon: envelope
+        - label: Gmail
+          address: shaoyixuan99@gmail.com
+          icon: at-symbol
+      form_title: Leave a message
+      form_text: Fill in the form and your email application will prepare the message for you.
+      name_label: Name
+      email_label: Your email
+      subject_label: Subject
+      message_label: Message
+      submit_text: Open email app
+      form_note: After clicking the button, please review the prepared email and press Send in your email application.
+      recipient: shaoyixuan99@gmail.com
+    design:
+      css_class: 'bg-gray-50 dark:bg-gray-900'
 ---

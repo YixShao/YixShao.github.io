@@ -120,4 +120,29 @@ sections:
     content:
       title: 相册
       text: 记录自然与日常生活中的一些瞬间。点击照片可查看原图。
+  - block: personal-contact
+    id: contact
+    content:
+      title: 联系我
+      subtitle: 如果有任何想对我说的，欢迎在下方留言，也可以直接给我发送邮件。
+      email_title: 直接发送邮件
+      email_text: 可以通过南京大学邮箱或 Gmail 与我联系。
+      emails:
+        - label: 南京大学邮箱
+          address: yixuan@smail.nju.edu.cn
+          icon: envelope
+        - label: Gmail
+          address: shaoyixuan99@gmail.com
+          icon: at-symbol
+      form_title: 给我留言
+      form_text: 填写以下内容后，系统会通过你的邮件应用生成一封邮件。
+      name_label: 姓名
+      email_label: 你的邮箱
+      subject_label: 主题
+      message_label: 留言内容
+      submit_text: 打开邮件应用
+      form_note: 点击按钮后，请在打开的邮件应用中检查内容并确认发送。
+      recipient: shaoyixuan99@gmail.com
+    design:
+      css_class: 'bg-gray-50 dark:bg-gray-900'
 ---

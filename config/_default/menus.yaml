@@ -36,3 +36,7 @@ main:
     identifier: Jc1o5KXh
     url: gallery/
     weight: 70
+  - name: Contact
+    identifier: contact
+    url: /#contact
+    weight: 80

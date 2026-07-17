@@ -1,0 +1,118 @@
+{{/* Personal contact block with a static-site email fallback and optional form endpoint. */}}
+
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ $form_id := printf "personal-contact-form-%s" $page.Lang }}
+{{ $recipient := $content.recipient | default "shaoyixuan99@gmail.com" }}
+{{ $form_action := $content.form_action }}
+
+<div class="mx-auto w-full max-w-6xl px-6 lg:px-8">
+  <div class="mx-auto mb-10 max-w-3xl text-center">
+    <div class="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-primary-100 text-primary-600 dark:bg-primary-900/40 dark:text-primary-300">
+      {{ partial "functions/get_icon" (dict "name" "chat-bubble-left-right" "attributes" "class=\"h-7 w-7\"") }}
+    </div>
+    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
+      {{ $content.title | default "Contact" | emojify | $page.RenderString }}
+    </h2>
+    {{ with $content.subtitle }}
+      <div class="mt-4 text-base leading-7 text-gray-600 dark:text-gray-300">
+        {{ . | emojify | $page.RenderString }}
+      </div>
+    {{ end }}
+  </div>
+
+  <div class="grid gap-8 lg:grid-cols-5">
+    <aside class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm lg:col-span-2 sm:p-8 dark:border-gray-700 dark:bg-gray-800">
+      <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+        {{ $content.email_title | default "Email me directly" }}
+      </h3>
+      {{ with $content.email_text }}
+        <p class="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-300">{{ . }}</p>
+      {{ end }}
+
+      <div class="mt-6 space-y-4">
+        {{ range $content.emails }}
+          <a href="mailto:{{ .address }}" class="group flex items-center gap-4 rounded-xl border border-gray-200 p-4 transition hover:-translate-y-0.5 hover:border-primary-300 hover:shadow-md dark:border-gray-700 dark:hover:border-primary-600">
+            <span class="flex h-11 w-11 flex-none items-center justify-center rounded-full bg-primary-50 text-primary-600 group-hover:bg-primary-100 dark:bg-primary-900/30 dark:text-primary-300 dark:group-hover:bg-primary-900/50">
+              {{ partial "functions/get_icon" (dict "name" (.icon | default "envelope") "attributes" "class=\"h-5 w-5\"") }}
+            </span>
+            <span class="min-w-0">
+              <span class="block text-sm font-semibold text-gray-900 dark:text-white">{{ .label }}</span>
+              <span class="block break-all text-sm text-gray-600 group-hover:text-primary-600 dark:text-gray-300 dark:group-hover:text-primary-300">{{ .address }}</span>
+            </span>
+          </a>
+        {{ end }}
+      </div>
+    </aside>
+
+    <div class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm lg:col-span-3 sm:p-8 dark:border-gray-700 dark:bg-gray-800">
+      <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+        {{ $content.form_title | default "Leave a message" }}
+      </h3>
+      {{ with $content.form_text }}
+        <p class="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-300">{{ . }}</p>
+      {{ end }}
+
+      <form
+        id="{{ $form_id }}"
+        class="mt-6 space-y-5"
+        {{ with $form_action }}action="{{ . }}" method="POST"{{ else }}data-mailto-recipient="{{ $recipient }}"{{ end }}
+      >
+        <div class="grid gap-5 sm:grid-cols-2">
+          <div>
+            <label for="{{ $form_id }}-name" class="mb-2 block text-sm font-medium text-gray-700 dark:text-gray-200">{{ $content.name_label | default "Name" }}</label>
+            <input id="{{ $form_id }}-name" name="name" type="text" autocomplete="name" required class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 outline-none transition focus:border-primary-500 focus:ring-2 focus:ring-primary-200 dark:border-gray-600 dark:bg-gray-900 dark:text-white dark:focus:ring-primary-900">
+          </div>
+          <div>
+            <label for="{{ $form_id }}-email" class="mb-2 block text-sm font-medium text-gray-700 dark:text-gray-200">{{ $content.email_label | default "Your email" }}</label>
+            <input id="{{ $form_id }}-email" name="email" type="email" autocomplete="email" required class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 outline-none transition focus:border-primary-500 focus:ring-2 focus:ring-primary-200 dark:border-gray-600 dark:bg-gray-900 dark:text-white dark:focus:ring-primary-900">
+          </div>
+        </div>
+        <div>
+          <label for="{{ $form_id }}-subject" class="mb-2 block text-sm font-medium text-gray-700 dark:text-gray-200">{{ $content.subject_label | default "Subject" }}</label>
+          <input id="{{ $form_id }}-subject" name="subject" type="text" required class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 outline-none transition focus:border-primary-500 focus:ring-2 focus:ring-primary-200 dark:border-gray-600 dark:bg-gray-900 dark:text-white dark:focus:ring-primary-900">
+        </div>
+        <div>
+          <label for="{{ $form_id }}-message" class="mb-2 block text-sm font-medium text-gray-700 dark:text-gray-200">{{ $content.message_label | default "Message" }}</label>
+          <textarea id="{{ $form_id }}-message" name="message" rows="6" required class="w-full resize-y rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 outline-none transition focus:border-primary-500 focus:ring-2 focus:ring-primary-200 dark:border-gray-600 dark:bg-gray-900 dark:text-white dark:focus:ring-primary-900"></textarea>
+        </div>
+        {{ with $content.form_note }}
+          <p class="text-sm leading-6 text-gray-500 dark:text-gray-400">{{ . }}</p>
+        {{ end }}
+        <button type="submit" class="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-primary-600 px-6 py-3 font-semibold text-white shadow-sm transition hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800">
+          {{ partial "functions/get_icon" (dict "name" "paper-airplane" "attributes" "class=\"h-5 w-5\"") }}
+          <span>{{ $content.submit_text | default "Open email app" }}</span>
+        </button>
+      </form>
+
+      {{ if not $form_action }}
+        <script>
+          (() => {
+            const form = document.getElementById({{ $form_id | jsonify | safeJS }});
+            if (!form) return;
+            form.addEventListener('submit', (event) => {
+              event.preventDefault();
+              if (!form.reportValidity()) return;
+
+              const data = new FormData(form);
+              const name = String(data.get('name') || '').trim();
+              const email = String(data.get('email') || '').trim();
+              const subject = String(data.get('subject') || '').trim();
+              const message = String(data.get('message') || '').trim();
+              const recipient = form.dataset.mailtoRecipient;
+              const body = [
+                `Name: ${name}`,
+                `Email: ${email}`,
+                '',
+                message
+              ].join('\n');
+
+              window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            });
+          })();
+        </script>
+      {{ end }}
+    </div>
+  </div>
+</div>

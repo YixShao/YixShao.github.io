@@ -20,10 +20,22 @@
     {{ range sort $gallery_pages "Title" }}
       {{ $category := . }}
       {{ $images := slice }}
+      {{ $featured_images := slice }}
+      {{ $other_images := slice }}
       {{ range .Resources.ByType "image" }}
         {{ if not (findRE "_hu_" .Name) }}
-          {{ $images = $images | append . }}
+          {{ if eq (path.BaseName .Name) "featured" }}
+            {{ $featured_images = $featured_images | append . }}
+          {{ else }}
+            {{ $other_images = $other_images | append . }}
+          {{ end }}
         {{ end }}
+      {{ end }}
+      {{ range $featured_images }}
+        {{ $images = $images | append . }}
+      {{ end }}
+      {{ range $other_images }}
+        {{ $images = $images | append . }}
       {{ end }}
       {{ if gt (len $images) 0 }}
         {{ $column_class := "columns-1 gap-4 sm:columns-2 lg:columns-3" }}

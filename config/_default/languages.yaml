@@ -37,3 +37,6 @@ zh:
       - name: 相册
         url: /zh/#gallery
         weight: 50
+      - name: 联系我
+        url: /zh/#contact
+        weight: 60
