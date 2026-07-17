@@ -14,7 +14,7 @@ affiliations:
   - name: "南京大学天文与空间科学学院"
     url: "https://astronomy.nju.edu.cn/"
 links:
-  - icon: "at-symbol"
+  - icon: "envelope"
     url: "mailto:yixuan@smail.nju.edu.cn"
     label: "南京大学邮箱"
   - icon: "at-symbol"

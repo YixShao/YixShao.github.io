@@ -15,7 +15,7 @@ sections:
         我是南京大学天文系的博士研究生，自2023年起在高能组周平博士指导下开展研究。在此之前我于2023年在南京大学获得天文学学士学位。我的研究主要聚焦于孤立中子星，包括磁陀星 (magnetar)、中心致密天体（Central Compact Objects）和高磁场脉冲星 (High-magnetic-field pulsar)，以及它们与快速射电暴（Fast Radio Bursts）和超新星遗迹（Supernova Remnants）之间的联系。我利用射电、光学、红外和X射线等多波段观测，研究极端天体物理环境中的辐射机制与物理过程。
       button:
         text: 下载简历
-        url: uploads/CV_Shaoyixuan.pdf
+        url: /uploads/CV_Shaoyixuan.pdf
       headings:
         about: 个人简介
         education: 教育经历
@@ -64,7 +64,7 @@ sections:
       text: |-
         **2026年**
 
-        - **5月 · 论文投稿** — 投稿一篇关于射电脉冲星的论文。
+        - **6月 · 论文投稿** — 投稿一篇关于射电脉冲星的论文。
         - **5月 · 会议报告** — “FAST揭示的单脉冲强度偏振依赖分布”，APRIM 2026，中国香港。
         - **2月 · 合作论文** — “Pulsar Gleaners: Discovery of 19 Pulsars in FAST Archival Data at |b| < 5° and Decl. < −5°”，发表于 *The Astrophysical Journal* 997, 210。
         - **2月 · 合作论文** — “Search for Radio Pulsations from Neutron Star Candidates in Detached Binaries”，发表于 *The Astrophysical Journal* 997, 222。

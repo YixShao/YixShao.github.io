@@ -69,7 +69,7 @@ sections:
       text: |-
         **2026**
 
-        - **May · Manuscript** — Submitted a manuscript on radio pulsars.
+        - **June · Manuscript** — Submitted a manuscript on radio pulsars.
         - **May · Conference presentation** — “Polarization-Dependent Distributions of Single Pulse Intensity Revealed by FAST,” APRIM 2026, Hong Kong, China.
         - **February · Publication (co-author)** — “Pulsar Gleaners: Discovery of 19 Pulsars in FAST Archival Data at |b| < 5° and Decl. < −5°,” *The Astrophysical Journal*, 997, 210.
         - **February · Publication (co-author)** — “Search for Radio Pulsations from Neutron Star Candidates in Detached Binaries,” *The Astrophysical Journal*, 997, 222.

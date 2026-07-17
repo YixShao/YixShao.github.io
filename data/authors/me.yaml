@@ -18,7 +18,7 @@ affiliations:
   - name: "School of Astronomy and Space Science"
     url: "https://astronomy.nju.edu.cn/"
 links:
-  - icon: "at-symbol"
+  - icon: "envelope"
     url: "mailto:yixuan@smail.nju.edu.cn"
     label: "NJU Email"
   - icon: "at-symbol"
