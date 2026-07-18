@@ -2,7 +2,11 @@
 # Leave the homepage title empty to use the site title
 title: ''
 date: 2022-10-24
+lastmod: 2026-07-18
 type: landing
+summary: Official academic website of Yixuan Shao (Yi-Xuan Shao, 邵一轩), a Nanjing University astronomy PhD student studying pulsars and fast radio bursts.
+seo:
+  title: Yixuan Shao (邵一轩) | Astronomy PhD Student
 
 design:
   # Default section spacing

@@ -12,14 +12,14 @@ en:
 zh:
   languageCode: zh-Hans
   languageName: 中文
-  title: 邵一轩的个人主页
+  title: 邵一轩（Yixuan Shao）
   weight: 2
   params:
-    description: 南京大学天文学博士研究生邵一轩的个人学术主页
+    description: 邵一轩（Yixuan Shao）的个人学术主页。南京大学天文学博士研究生，研究脉冲星、中子星、快速射电暴和超新星遗迹。
     hugoblox:
       identity:
         tagline: 天文学｜博士研究生
-        description: 南京大学天文学博士研究生邵一轩的个人学术主页
+        description: 邵一轩（Yixuan Shao）的个人学术主页。南京大学天文学博士研究生，研究脉冲星、中子星、快速射电暴和超新星遗迹。
   menu:
     main:
       - name: 个人简介

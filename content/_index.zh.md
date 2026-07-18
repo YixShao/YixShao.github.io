@@ -1,7 +1,11 @@
 ---
 title: ''
 date: 2022-10-24
+lastmod: 2026-07-18
 type: landing
+summary: 邵一轩（Yixuan Shao）的个人学术主页。南京大学天文学博士研究生，研究脉冲星、中子星、快速射电暴和超新星遗迹。
+seo:
+  title: 邵一轩（Yixuan Shao）| 南京大学天文学博士研究生
 
 design:
   spacing: '6rem'

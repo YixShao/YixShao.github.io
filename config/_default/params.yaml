@@ -3,8 +3,8 @@ hugoblox:
   identity:
     name: Yixuan Shao (邵一轩)
     type: person
-    tagline: Astronomy | PhD Student
-    description: The personal website of Yixuan Shao, a PhD Student at Nanjing Univerisity
+    tagline: Astronomy PhD Student at Nanjing University
+    description: Official academic website of Yixuan Shao (Yi-Xuan Shao, 邵一轩), a Nanjing University astronomy PhD student studying pulsars and fast radio bursts.
   theme:
     mode: system
     pack: default
@@ -41,3 +41,6 @@ hugoblox:
       enable: true
   search:
     enable: false
+  verification:
+    # Paste the token from Google Search Console's HTML-tag method here.
+    google: ''

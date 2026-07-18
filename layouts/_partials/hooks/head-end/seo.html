@@ -1,0 +1,81 @@
+{{- if not .Params.private }}
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+{{- end }}
+
+{{- if .IsHome }}
+<link rel="alternate" hreflang="x-default" href="{{ site.BaseURL }}">
+
+{{- $isChinese := eq .Language.Lang "zh" -}}
+{{- $pageName := "Yixuan Shao (邵一轩) | Astronomy PhD Student" -}}
+{{- $description := "Official academic website of Yixuan Shao (Yi-Xuan Shao, 邵一轩), a Nanjing University astronomy PhD student studying pulsars, neutron stars, fast radio bursts, and supernova remnants." -}}
+{{- if $isChinese -}}
+  {{- $pageName = "邵一轩（Yixuan Shao）| 南京大学天文学博士研究生" -}}
+  {{- $description = "邵一轩（Yixuan Shao）的个人学术主页。南京大学天文学博士研究生，研究脉冲星、中子星、快速射电暴和超新星遗迹。" -}}
+{{- end -}}
+
+{{- $person := dict
+  "@type" "Person"
+  "@id" (printf "%s#person" site.BaseURL)
+  "name" "Yixuan Shao"
+  "givenName" "Yi-Xuan"
+  "familyName" "Shao"
+  "alternateName" (slice "Yi-Xuan Shao" "邵一轩" "Shaoyixuan")
+  "url" site.BaseURL
+  "jobTitle" "PhD Student in Astronomy"
+  "description" $description
+  "affiliation" (dict
+    "@type" "CollegeOrUniversity"
+    "name" "Nanjing University"
+    "url" "https://www.nju.edu.cn/"
+  )
+  "alumniOf" (dict
+    "@type" "CollegeOrUniversity"
+    "name" "Nanjing University"
+    "url" "https://www.nju.edu.cn/"
+  )
+  "sameAs" (slice
+    "https://github.com/YixShao"
+    "https://orcid.org/0000-0001-5684-0103"
+  )
+  "knowsAbout" (slice
+    "Pulsars"
+    "Neutron stars"
+    "Fast radio bursts"
+    "Supernova remnants"
+    "Multi-wavelength astronomy"
+  )
+-}}
+
+{{- $avatar := resources.GetMatch "media/authors/me.*" -}}
+{{- with $avatar -}}
+  {{- $avatarSquare := .Fill "512x512 Center" -}}
+  {{- $person = merge $person (dict "image" (dict
+    "@type" "ImageObject"
+    "url" $avatarSquare.Permalink
+    "width" $avatarSquare.Width
+    "height" $avatarSquare.Height
+  )) -}}
+{{- end -}}
+
+{{- $profilePage := dict
+  "@context" "https://schema.org"
+  "@type" "ProfilePage"
+  "@id" .Permalink
+  "url" .Permalink
+  "name" $pageName
+  "description" $description
+  "inLanguage" (.Language.LanguageCode | default .Language.Lang)
+  "dateCreated" (.Date.Format "2006-01-02")
+  "dateModified" (.Lastmod.Format "2006-01-02")
+  "mainEntity" $person
+  "isPartOf" (dict
+    "@type" "WebSite"
+    "@id" site.BaseURL
+    "url" site.BaseURL
+    "name" site.Title
+  )
+-}}
+<script type="application/ld+json">
+{{ $profilePage | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{- end }}
