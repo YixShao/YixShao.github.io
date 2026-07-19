@@ -42,7 +42,7 @@ education:
     summary: ""
 experience: []
 skills:
-  - name: "Technical Skills"
+  - name: "Coding Skills"
     items:
       - label: "Python, Bash"
         level: 5

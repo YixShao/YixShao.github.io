@@ -46,7 +46,7 @@ education:
 experience: []
 
 skills:
-  - name: "技术技能"
+  - name: "编程技能"
     items:
       - label: "Python, Bash"
         level: 5
