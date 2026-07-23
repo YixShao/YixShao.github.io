@@ -67,7 +67,7 @@ sections:
       subtitle: ''
       text: |-
         **2026年**
-
+        - **7月 · 望远镜提案** — 作为PI的两个FAST观测提案获得了12小时的观测时间。
         - **6月 · 论文投稿** — 投稿一篇关于射电脉冲星的论文。
         - **5月 · 会议报告** — “FAST揭示的单脉冲强度偏振依赖分布”，APRIM 2026，中国香港。
         - **2月 · 合作论文** — “Pulsar Gleaners: Discovery of 19 Pulsars in FAST Archival Data at |b| < 5° and Decl. < −5°”，发表于 *The Astrophysical Journal* 997, 210。

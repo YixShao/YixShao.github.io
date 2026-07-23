@@ -72,7 +72,7 @@ sections:
       subtitle: ''
       text: |-
         **2026**
-
+        - **July · Telescope time** — Got 12h in total for two FAST proposals as PI.
         - **June · Manuscript** — Submitted a manuscript on radio pulsars.
         - **May · Conference presentation** — “Polarization-Dependent Distributions of Single Pulse Intensity Revealed by FAST,” APRIM 2026, Hong Kong, China.
         - **February · Publication (co-author)** — “Pulsar Gleaners: Discovery of 19 Pulsars in FAST Archival Data at |b| < 5° and Decl. < −5°,” *The Astrophysical Journal*, 997, 210.
