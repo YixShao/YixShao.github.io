@@ -67,30 +67,33 @@ sections:
       subtitle: ''
       text: |-
         **2026年**
+        - **9月 · 论文投稿** — 投稿一篇关于中心致密天体观测的论文。
+        - **8月 · 会议报告** — "FAST揭示多样的的单脉冲强度-偏振关系"，2026 年射电天文前沿与技术研讨会，中国德令哈。
+        - **8月 · 望远镜提案** — 作为PI的一个Parkes观测提案获得了27小时的观测时间。
         - **7月 · 望远镜提案** — 作为PI的两个FAST观测提案获得了12小时的观测时间。
         - **6月 · 论文投稿** — 投稿一篇关于射电脉冲星的论文。
-        - **5月 · 会议报告** — “FAST揭示的单脉冲强度偏振依赖分布”，APRIM 2026，中国香港。
-        - **2月 · 合作论文** — “Pulsar Gleaners: Discovery of 19 Pulsars in FAST Archival Data at |b| < 5° and Decl. < −5°”，发表于 *The Astrophysical Journal* 997, 210。
-        - **2月 · 合作论文** — “Search for Radio Pulsations from Neutron Star Candidates in Detached Binaries”，发表于 *The Astrophysical Journal* 997, 222。
+        - **5月 · 会议报告** — "FAST揭示的单脉冲强度偏振依赖分布"，APRIM 2026，中国香港。
+        - **2月 · 合作论文** — "Pulsar Gleaners: Discovery of 19 Pulsars in FAST Archival Data at |b| < 5° and Decl. < −5°"，发表于 *The Astrophysical Journal* 997, 210。
+        - **2月 · 合作论文** — "Search for Radio Pulsations from Neutron Star Candidates in Detached Binaries"，发表于 *The Astrophysical Journal* 997, 222。
 
         <details class="mt-8 rounded-xl border border-gray-200 bg-white/60 p-5 shadow-sm dark:border-gray-700 dark:bg-gray-800/40">
         <summary class="cursor-pointer font-semibold text-primary-600 dark:text-primary-300">展开其余10条活动</summary>
 
         **2025年**
 
-        - **10月 · 第一作者论文** — “Absence of Radio Emission Reveals an Exceptionally Weak Explosion of the Putative Historical Supernova Pa 30”，发表于 *The Astrophysical Journal Letters* 992, L6。
-        - **10月 · 合作论文** — “RRAT J2325−0530: A Rotating Radio Transient with an Atypical Waiting-time Distribution”，发表于 *The Astrophysical Journal* 991, 201。
-        - **9月 · 合作论文** — “A Target Search for Fast Radio Bursts Associated with Two Fast Blue Optical Transients: AT2018cow and CSS161010”，发表于 *The Astrophysical Journal* 990, 93。
-        - **8月 · 会议报告** — “Pa 30射电辐射缺失揭示其可能经历了极弱爆炸”，第十六届张衡学术研讨会，中国青岛。
+        - **10月 · 第一作者论文** — "Absence of Radio Emission Reveals an Exceptionally Weak Explosion of the Putative Historical Supernova Pa 30"，发表于 *The Astrophysical Journal Letters* 992, L6。
+        - **10月 · 合作论文** — "RRAT J2325−0530: A Rotating Radio Transient with an Atypical Waiting-time Distribution"，发表于 *The Astrophysical Journal* 991, 201。
+        - **9月 · 合作论文** — "A Target Search for Fast Radio Bursts Associated with Two Fast Blue Optical Transients: AT2018cow and CSS161010"，发表于 *The Astrophysical Journal* 990, 93。
+        - **8月 · 会议报告** — "Pa 30射电辐射缺失揭示其可能经历了极弱爆炸"，第十六届张衡学术研讨会，中国青岛。
 
         **2024年**
 
-        - **12月 · 会议报告** — “SGR J1935+2154在2022年爆发期间的GTC光学/近红外上限与NICER X射线分析”，PSR 2024，中国贵州。
-        - **12月 · 会议报告** — “搜寻快速射电暴附近特殊磁活动区域的数据处理流程”，FRB 2024，泰国Khao Lak。
-        - **11月 · 第一作者论文** — “GTC Optical/Near-infrared Upper Limits and NICER X-Ray Analysis of SGR J1935+2154 for the Outburst in 2022”，发表于 *The Astrophysical Journal* 976, 99。
-        - **11月 · 合作论文** — “Triggering the Untriggered: The First Einstein Probe-detected Gamma-Ray Burst 240219A and Its Implications”，发表于 *The Astrophysical Journal Letters* 975, L27。
-        - **10月 · 合作论文** — “Discovery of a Millisecond Pulsar Associated with Terzan 6”，发表于 *The Astrophysical Journal Letters* 974, L2。
-        - **3月 · 合作论文** — “Upper Limits on the Radio Pulses from Magnetars and a Central Compact Object with FAST”，发表于 *The Astrophysical Journal* 963, 151。
+        - **12月 · 会议报告** — "SGR J1935+2154在2022年爆发期间的GTC光学/近红外上限与NICER X射线分析"，PSR 2024，中国贵州。
+        - **12月 · 会议报告** — "搜寻快速射电暴附近特殊磁活动区域的数据处理流程"，FRB 2024，泰国Khao Lak。
+        - **11月 · 第一作者论文** — "GTC Optical/Near-infrared Upper Limits and NICER X-Ray Analysis of SGR J1935+2154 for the Outburst in 2022"，发表于 *The Astrophysical Journal* 976, 99。
+        - **11月 · 合作论文** — "Triggering the Untriggered: The First Einstein Probe-detected Gamma-Ray Burst 240219A and Its Implications"，发表于 *The Astrophysical Journal Letters* 975, L27。
+        - **10月 · 合作论文** — "Discovery of a Millisecond Pulsar Associated with Terzan 6"，发表于 *The Astrophysical Journal Letters* 974, L2。
+        - **3月 · 合作论文** — "Upper Limits on the Radio Pulses from Magnetars and a Central Compact Object with FAST"，发表于 *The Astrophysical Journal* 963, 151。
 
         </details>
     design:

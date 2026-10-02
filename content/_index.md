@@ -72,30 +72,33 @@ sections:
       subtitle: ''
       text: |-
         **2026**
-        - **July · Telescope time** — Got 12h in total for two FAST proposals as PI.
+        - **September · Manuscript** — Submitted a manuscript on CCO observation.
+        - **August · Conference presentation** — "Diverse Intensity–Polarization Relations in Pulsar Single Pulses", 2026 Symposium on Frontiers and Technological Advances in Radio Astronomy, Delingha, China.
+        - **August · Telescope time** — Got 27h in total for one Parkes proposal as PI.
+        - **July · Telescope time** — Got 12.25h in total for two FAST proposals as PI.
         - **June · Manuscript** — Submitted a manuscript on radio pulsars.
-        - **May · Conference presentation** — “Polarization-Dependent Distributions of Single Pulse Intensity Revealed by FAST,” APRIM 2026, Hong Kong, China.
-        - **February · Publication (co-author)** — “Pulsar Gleaners: Discovery of 19 Pulsars in FAST Archival Data at |b| < 5° and Decl. < −5°,” *The Astrophysical Journal*, 997, 210.
-        - **February · Publication (co-author)** — “Search for Radio Pulsations from Neutron Star Candidates in Detached Binaries,” *The Astrophysical Journal*, 997, 222.
+        - **May · Conference presentation** — "Polarization-Dependent Distributions of Single Pulse Intensity Revealed by FAST", APRIM 2026, Hong Kong, China.
+        - **February · Publication (co-author)** — "Pulsar Gleaners: Discovery of 19 Pulsars in FAST Archival Data at |b| < 5° and Decl. < −5°", *The Astrophysical Journal*, 997, 210.
+        - **February · Publication (co-author)** — "Search for Radio Pulsations from Neutron Star Candidates in Detached Binaries", *The Astrophysical Journal*, 997, 222.
 
         <details class="mt-8 rounded-xl border border-gray-200 bg-white/60 p-5 shadow-sm dark:border-gray-700 dark:bg-gray-800/40">
         <summary class="cursor-pointer font-semibold text-primary-600 dark:text-primary-300">Show 10 earlier activities</summary>
 
         **2025**
 
-        - **October · Publication (first author)** — “Absence of Radio Emission Reveals an Exceptionally Weak Explosion of the Putative Historical Supernova Pa 30,” *The Astrophysical Journal Letters*, 992, L6.
-        - **October · Publication (co-author)** — “RRAT J2325−0530: A Rotating Radio Transient with an Atypical Waiting-time Distribution,” *The Astrophysical Journal*, 991, 201.
-        - **September · Publication (co-author)** — “A Target Search for Fast Radio Bursts Associated with Two Fast Blue Optical Transients: AT2018cow and CSS161010,” *The Astrophysical Journal*, 990, 93.
-        - **August · Conference presentation** — “The Absence of Radio Emission Reveals an Exceptionally Weak Explosion for the Probable Historical Supernova Pa 30,” 16th Zhang Heng Academic Symposium, Qingdao, China.
+        - **October · Publication (first author)** — "Absence of Radio Emission Reveals an Exceptionally Weak Explosion of the Putative Historical Supernova Pa 30", *The Astrophysical Journal Letters*, 992, L6.
+        - **October · Publication (co-author)** — "RRAT J2325−0530: A Rotating Radio Transient with an Atypical Waiting-time Distribution", *The Astrophysical Journal*, 991, 201.
+        - **September · Publication (co-author)** — "A Target Search for Fast Radio Bursts Associated with Two Fast Blue Optical Transients: AT2018cow and CSS161010", *The Astrophysical Journal*, 990, 93.
+        - **August · Conference presentation** — "The Absence of Radio Emission Reveals an Exceptionally Weak Explosion for the Probable Historical Supernova Pa 30", 16th Zhang Heng Academic Symposium, Qingdao, China.
 
         **2024**
 
-        - **December · Conference presentation** — “GTC Optical/Near-infrared Upper Limits and NICER X-Ray Analysis of SGR J1935+2154 for the Outburst in 2022,” PSR 2024, Guizhou, China.
-        - **December · Conference presentation** — “A Pipeline to Search for Special Magneto-active Regions near Fast Radio Bursts,” FRB 2024, Khao Lak, Thailand.
-        - **November · Publication (first author)** — “GTC Optical/Near-infrared Upper Limits and NICER X-Ray Analysis of SGR J1935+2154 for the Outburst in 2022,” *The Astrophysical Journal*, 976, 99.
-        - **November · Publication (co-author)** — “Triggering the Untriggered: The First Einstein Probe-detected Gamma-Ray Burst 240219A and Its Implications,” *The Astrophysical Journal Letters*, 975, L27.
-        - **October · Publication (co-author)** — “Discovery of a Millisecond Pulsar Associated with Terzan 6,” *The Astrophysical Journal Letters*, 974, L2.
-        - **March · Publication (co-author)** — “Upper Limits on the Radio Pulses from Magnetars and a Central Compact Object with FAST,” *The Astrophysical Journal*, 963, 151.
+        - **December · Conference presentation** — "GTC Optical/Near-infrared Upper Limits and NICER X-Ray Analysis of SGR J1935+2154 for the Outburst in 2022", PSR 2024, Guizhou, China.
+        - **December · Conference presentation** — "A Pipeline to Search for Special Magneto-active Regions near Fast Radio Bursts", FRB 2024, Khao Lak, Thailand.
+        - **November · Publication (first author)** — "GTC Optical/Near-infrared Upper Limits and NICER X-Ray Analysis of SGR J1935+2154 for the Outburst in 2022", *The Astrophysical Journal*, 976, 99.
+        - **November · Publication (co-author)** — "Triggering the Untriggered: The First Einstein Probe-detected Gamma-Ray Burst 240219A and Its Implications", *The Astrophysical Journal Letters*, 975, L27.
+        - **October · Publication (co-author)** — "Discovery of a Millisecond Pulsar Associated with Terzan 6", *The Astrophysical Journal Letters*, 974, L2.
+        - **March · Publication (co-author)** — "Upper Limits on the Radio Pulses from Magnetars and a Central Compact Object with FAST", *The Astrophysical Journal*, 963, 151.
 
         </details>
     design:
